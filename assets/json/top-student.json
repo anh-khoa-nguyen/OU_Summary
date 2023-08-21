@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "avatar": "minhkhoa.png",
+    "name": "Minh Khoa",
+    "email": "minhkhoa.nguyen@gmail.com",
+    "congrat": "Huỷ diệt mùa thi"
+}, {
+    "id": 2,
+    "avatar": "hoangyen.png",
+    "name": "Hoàng Yến",
+    "email": "minhkhoa.nguyen@gmail.com",
+    "congrat": "Thiên tài xuất chúng"
+}, {
+    "id": 3,
+    "avatar": "thuyan.png",
+    "name": "Thuý An",
+    "email": "minhkhoa.nguyen@gmail.com",
+    "congrat": "Thần đồng siêng năng"
+}]

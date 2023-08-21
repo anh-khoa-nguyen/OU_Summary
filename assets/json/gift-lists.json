@@ -1,0 +1,50 @@
+[{
+    "id": "1",
+    "image":"1.png",
+    "name": "Bút bi Thiên Long TL-095",
+    "need": "5",
+    "needIs": "sáng tạo"
+},{
+    "id": "2",
+    "image":"3.png",
+    "name": "Giấy note UNC-277",
+    "need": "10",
+    "needIs": "chủ động"
+},{
+    "id": "3",
+    "image":"2.png",
+    "name": "Tập Thuận Tiến (TT-215)",
+    "need": "10",
+    "needIs": "đúng giờ"
+},{
+    "id": "4",
+    "image":"5.png",
+    "name": "Bút chì 274 (AE025)",
+    "need": "5",
+    "needIs": "kiên định"
+},{
+    "id": "5",
+    "image":"4.png",
+    "name": "Bút highlighter OU",
+    "need": "15",
+    "needIs": "trung thành"
+},{
+    "id": "6",
+    "image":"6.png",
+    "name": "Móc khoá OU",
+    "need": "15",
+    "needIs": "dũng cảm"
+},{
+    "id": "7",
+    "image":"7.png",
+    "name": "Ly giữ nhiệt OU",
+    "need": "50",
+    "needIs": "hài hước"
+},{
+    "id": "8",
+    "image":"8.png",
+    "name": "Sticker OU",
+
+    "need": "5",
+    "needIs": "kiên định"
+}]

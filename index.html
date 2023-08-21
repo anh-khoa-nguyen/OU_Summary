@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <!--BASIC-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>OU Summary</title>
+    <link rel="shortcut icon" href="./assets/images/shortcut-icon/Summary.png">
+    <!--END OF BASIC-->
+
+    <!--WEBSITE FONT-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+    <!--END OF WEBSITE FONT-->
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!--END OF CSS-->
+</head>
+<body data-page="homepage" class="dark-mode">
+    <div class="main">
+        <!--Snowfall-->
+        <div class="animation">
+        </div>
+        <!--END OF Snowfall-->
+        <!--HEADER-->
+        <header class="header">
+            <nav class="nav in-flex jtf-ct-bw al-it-ct">
+            
+                <div class="nav__navbar-right flex">
+                    <a class="nav__navbar-to-homepage flex" href="">
+                        <div class="nav__navbar-image">
+                            <img src="./assets/images/shortcut-icon/Summary.png" alt="OU-Summary">
+                        </div>
+                        <div class="nav__navbar-webname flex">OU Summary</div>
+                    </a>
+                </div>
+
+                <div class="nav__navbar-center flex">
+                    <div>
+                        <h3 class="nav__navbar-whatis">Tổng quan</h3>
+                    </div>
+                </div>
+              
+                <div class="nav__navbar-left flex">
+                    <ul class="nav__navbar-icons">
+                       
+                        <li class="navmenu--hover flex" id="autoComplete">
+                            <input type="text" id="search-input" class="close animate__animated animate__zoomInRight">
+                            <i class="nav__navbar-icon fa-solid fa-magnifying-glass"></i> 
+                            <ul id="search-suggest-lists" class="close"></ul>
+                        </li>
+
+                        
+
+                        <li class="navmenu--hover" id="open-nav-button">
+                            <i class="nav__navbar-icon fa-solid fa-gear"></i>
+                            <div class="navmenu navmenu--setting" id="navmenu-add-open">
+                                <div class="navmenu_wrap">
+                                    <header class="navmenu-header">
+                                        Cài đặt:
+                                    </header>
+                                    <body class="navmenu-body">
+                                        <ul class="navmenu-lists">
+                                            <li class="navmenu-list navmenu-list--setting flex">
+                                                <div class="navmenu-list__image image-size-m">
+                                                    <img src="./assets/images/setting-icons/darkmode.png" alt="desc-image">
+                                                </div>
+
+                                                <div class="navmenu-list__body">
+                                                    <div class="navmenu-list_body-title">
+                                                        Chế độ tối
+                                                    </div>
+                                                    <div class="navmenu-list_body-content">
+                                                        Công tắc chuyển giao diện sang chế độ tối.
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="navmenu-list flex">
+                                                <div class="navmenu-list__image image-size-m">
+                                                    <img src="./assets/images/setting-icons/language-change.png" alt="desc-image">
+                                                </div>
+
+                                                <div class="navmenu-list__body">
+                                                    <div class="navmenu-list_body-title">
+                                                        Chuyển ngôn ngữ
+                                                    </div>
+                                                    <div class="navmenu-list_body-content">
+                                                        Chuyển ngôn ngữ hiện tại sang EN-US
+                                                    </div>
+                                                </div>
+                                            </li> 
+                                        </ul>
+                                                       
+                                    <footer class="navmenu-footer flex">
+                                        <a href="" class="navmenu-footer__view-all">Xem tất cả</a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navmenu--hover" id="open-nav-button">
+                            <i class="nav__navbar-icon fa-regular fa-bell nav__navbar-icon--notify "></i>
+                            <!-- <span class="nav__navbar-unseen-msg">1</span> -->
+                            <div class="navmenu" id="navmenu-add-open">
+                                <div class="navmenu_wrap">
+                                    <header class="navmenu-header">
+                                        Thông báo:
+                                    </header>
+                                    <body class="navmenu-body">
+                                        <ul class="navmenu-lists" id="notification-lists">
+                                            <li class="navmenu-list flex navmenu-list--important-100">
+                                                <div class="navmenu-list__image">
+                                                    <img src="./assets/images/notify-images/school-fee-late.png" alt="desc-image">
+                                                </div>
+
+                                                <div class="navmenu-list__body">
+                                                    <div class="navmenu-list_body-title">
+                                                        Cảnh báo trễ hạn học phí.
+                                                    </div>
+                                                    <div class="navmenu-list_body-content">
+                                                        Bạn sẽ bị khoá MSSV trong học kì tới.
+                                                    </div>
+                                                    <div class="navmenu-list_body-timepass">
+                                                        20 giây trước...
+                                                    </div>
+                                                </div>
+                                            </li>                                
+                                        </ul>
+                                    </body>
+                                    <footer class="navmenu-footer flex">
+                                        <a href="" class="navmenu-footer__view-all">Xem tất cả</a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+
+                    <div class="user-menu-included nav__navbar-user--non-logged" id="open-nav-button">
+                        <div class="nav__navbar-user nav__navbar-user">
+                            <div class="navbar__user-image">
+                                <img src="./assets/images/user.png" width="30px" alt="user">
+                            </div>
+                            <div class="navbar__user-info">
+                                <div class="navbar__user-above">
+                                    <span class="navbar__user-name">User</span>
+                                    <span class="navbar__user-angledown">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                </div>
+                                
+                                <div class="navbar__user-below">
+                                    <span class="navbar__user-permission">Login</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="usermenu" id="navmenu-add-open">
+                            <ul class="usermenu-function-lists" >
+                                    <li class="usermenu-function-list flex al-it-ct">
+                                        <div class="usermenu-function-img">
+                                            <i class="fa-solid fa-key"></i>
+                                        </div>
+                                        <div class="usermenu-function-name">
+                                            <div href="" class="usermenu-function-name-login">Đăng nhập</div>
+                                        </div>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="user-menu-included nav__navbar-user--logged" id="open-nav-button">
+                        <div class="nav__navbar-user nav__navbar-user">
+                            <div class="navbar__user-image">
+                                <img src="./assets/images/user.png" width="30px" alt="user">
+                            </div>
+                            <div class="navbar__user-info">
+                                <div class="navbar__user-above">
+                                    <span class="navbar__user-name">Khoa</span>
+                                    <span class="navbar__user-angledown">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                </div>
+                                
+                                <div class="navbar__user-below">
+                                    <span class="navbar__user-permission">Student</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="usermenu" id="navmenu-add-open">
+                            <ul class="usermenu-function-lists" >
+                                    <li class="usermenu-function-list flex al-it-ct">
+                                        <div class="usermenu-function-img">
+                                            <i class="fa-solid fa-user-pen"></i>
+                                        </div>
+                                        <div class="usermenu-function-name">
+                                            <a href="">Thông tin tài khoản</a >
+                                        </div>
+                                    </li>
+                                    <li class="usermenu-function-list flex al-it-ct">
+                                        <div class="usermenu-function-img">
+                                            <i class="fa-solid fa-key"></i>
+                                        </div>
+                                        <div class="usermenu-function-name">
+                                            <a href="" class="">Thay đổi mật khẩu</a>
+                                        </div>
+                                    </li>
+                                    <li class="usermenu-function-list flex al-it-ct">
+                                        <div class="usermenu-function-img">
+                                            <i class="fa-solid fa-right-from-bracket"></i>
+                                        </div>
+                                        <div class="usermenu-function-name">
+                                            <a href="" class="">Thoát quyền sử dụng</a>
+                                        </div>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+        <!--END OF HEADER-->
+
+        <div class="container">
+            <div class="container-padding">
+                <!--SIDEBAR-->
+                <div class="sidebar-area">
+                    <div class="sidebar-area__open">
+                        <button class="sidebar__open-button" id="open-nav-button"><i class="sidebar__open-icon fa-solid fa-bars"></i></button>
+                        <h3 class="sidebar__open-name">Top Menu</h3>
+                    </div>
+                    <ul class="sidebar-area__lists animate__animated animate__zoomInDown open">
+                        <div class="sidebar-area__lists-padding" id="sidebar-menu-item">
+                            
+                            <!-- <li class="sidebar-area__list-item sidebar-area__list-item--checked">
+                                <a href="index.html" class="sidebar-area__list-item-link-to">
+                                    <div class="sidebar-area__list-item-circle-icon">
+                                        <i class="sidebar-area__list-item-icon fa-solid fa-eye"></i>
+                                    </div>
+                                    <div class="sidebar-area__list-item-name">Tổng quan</div>
+                                </a>
+                            </li> -->
+
+                        </div>
+                    </ul>
+
+                    <div class="music-player animate__animated animate__fadeIn">
+                        <div class="music-player__padding">
+                            <div class="music-player__image animate__animated">
+                                <img src="./assets/audio/image/loading.gif" alt="">
+                            </div>
+
+                            <div class="music-player__song-info">
+                                <div class="music-player__song-name">
+                                    ...
+                                </div>
+                                <div class="music-player__song-writer">
+                                    ...
+                                </div>
+                            </div>
+
+                            <div class="music-player__song-track">
+                                <input id="progress--main" class="music-player__song-track-process" type="range" step="1" min="0" max="100" value="0">
+                            </div>
+
+                            <ul class="music-player__buttons flex">
+                                <li class="music-player__button">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </li>              
+                                
+                                <li class="music-player__button music-player__button--back">
+                                    <i class="fa-solid fa-backward-step"></i>
+                                </li>
+                                <li class="music-player__button music-player__button--play">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </li>
+                                <li class="music-player__button music-player__button--next">
+                                    <i class="fa-solid fa-forward-step"></i>
+                                </li>
+                                <li class="music-player__button">
+                                    <i class="fa-solid fa-rotate"></i>
+                                </li>
+
+                            </ul>
+
+                            <div class="music-player__song-audio">
+                                <audio id="audio" src=""></audio>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!--MAIN AREA-->
+                <div class="main-area">
+                    <div class="main-area_1-3">
+                        <div class="main-area__function-name flex jtf-ct-bw">
+                            <div class="main-area__function-name-left" id="suggest-news">
+                                Tin tức
+                            </div>
+                            <div class="main-area__function-name-right">
+                                <p class="today_is" id="today-is">Hôm nay là ngày: N/A</p>
+                               
+                            </div>
+                        </div>
+                        <div class="main-area__function flex">
+                            <div class="main-area__function-1-1">
+                                <div class="main-area__news-function">
+
+                                    <div class="main-area__news-function-slider">
+                                        <div><a class="main-area__news-function-slider-link" href="index-news-detail.html"><img src="./assets/images/news-image/slider1.png" alt=""></a></div>
+                                        <div><a class="main-area__news-function-slider-link" href="index-news-detail.html"><img src="./assets/images/news-image/slider2.png" alt=""></a></div>
+                                        <div><a class="main-area__news-function-slider-link" href="index-news-detail.html"><img src="./assets/images/news-image/slider3.png" alt=""></a></div>
+                                        <div><a class="main-area__news-function-slider-link" href="index-news-detail.html"><img src="./assets/images/news-image/slider4.png" alt=""></a></div>
+                                    </div>
+
+                                    <div class="main-area__news-function-slider-button-place-go-to flex">
+                                        <button class="main-area__news-function-slider-button-go main-area__news-function-slider-button-go--prev"><i class="fa-solid fa-angle-left"></i></button>
+                                        <button class="main-area__news-function-slider-button-go main-area__news-function-slider-button-go--next"><i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+
+                                    <div class="main-area__news-function-slider-button-place">
+                                        ...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-area__function-1-2">
+                                <div class="main-area__total-functions">
+                                    <div class="main-area__total-function" style="background-image: linear-gradient(to bottom right, var(--t--sky-blue-color), var(--t--violet-green-color));">
+                                        <div class="main-area__total-function-sticker">
+                                            <img src="./assets/images/total-image/3.png" alt="">
+                                        </div>
+                                        <div class="main-area__total-function-text">
+                                            <p class="main-area__total-function-what">
+                                                Điểm hệ 10
+                                            </ơ>
+                                            <p class="main-area__total-function-point animate__animated animate__pulse" id="totalPoint-10">
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="main-area__total-function" style="background-image: linear-gradient(to bottom right, var(--t-light-green-color), var(--t-light-blue-color));">
+                                        <div class="main-area__total-function-sticker">
+                                            <img src="./assets/images/total-image/4.png" alt="">
+                                        </div>
+                                        <div class="main-area__total-function-text">
+                                            <p class="main-area__total-function-what">
+                                                Điểm hệ 4
+                                            </ơ>
+                                            <p class="main-area__total-function-point animate__animated animate__pulse" id="totalPoint-4">
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="main-area__total-function" style="background-image: linear-gradient(to bottom right, var(--t-yellow-color), var(--t-dark-yellow-color));">
+                                        <div class="main-area__total-function-sticker">
+                                            <img src="./assets/images/total-image/5.png" alt="">
+                                        </div>
+                                        <div class="main-area__total-function-text">
+                                            <p class="main-area__total-function-what">
+                                                Học phí
+                                            </ơ>
+                                            <p class="main-area__total-function-point">
+                                                Caution
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="main-area__total-function" style="background-image: linear-gradient(to bottom right, var(--t-pink-color), var(--t-purple-color));">
+                                        <div class="main-area__total-function-sticker">
+                                            <img src="./assets/images/total-image/6.png" alt="">
+                                        </div>
+                                        <div class="main-area__total-function-text">
+                                            <p class="main-area__total-function-what">
+                                                Điểm RL
+                                            </ơ>
+                                            <p class="main-area__total-function-point">
+                                                90
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-area_1-3">
+                        <div class="main-area__function-name main-area__function-name--responsive flex jtf-ct-bw al-it-ct">
+                            <div class="main-area__function-name-left" id="suggest-subject">
+                                Môn học
+                            </div>
+                            <div class="main-area__function-name-right flex">
+                                <div class="sorting-course flex al-it-ct">
+                                    <div class="sorting-course__desc">
+                                        <span>Sắp xếp:</span>
+                                    </div>
+
+                                    <div class="sorting-course__option">
+                                        <select class="sorting-course__option-select" name="" id="courseOption">
+                                            <option class="sorting-course__option-select-item" value="0">...</option>
+                                            <option class="sorting-course__option-select-item" value="1">Tên môn học: A-Z</option>
+                                            <option class="sorting-course__option-select-item" value="2">Điểm số: Cao - thấp</option>
+                                            <option class="sorting-course__option-select-item" value="3">Điểm số: Thấp - cao</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="search-course flex al-it-ct">
+                                    <i class="search-course__icon fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" class="search-course__input" placeholder="Tìm kiếm môn học tại đây...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-area__function flex">
+                            <div class="main-area__function-1-0">
+                                <div class="main-area__course-table animate__animated animate__fadeIn">
+                                    <div class="main-area__course-table-padding" id="subject-lists">
+                                        <div class="main-area__course-table-row main-area__course-table-row--about-what flex">
+                                            <div class="main-area__course-table-row-col-1">Tên môn học</div>
+                                            <div class="main-area__course-table-row-col-2">Nhóm lớp</div>
+                                            <div class="main-area__course-table-row-col-3">Điểm hệ 10</div>
+                                            <div class="main-area__course-table-row-col-4">Điểm hệ 4</div>
+                                            <div class="main-area__course-table-row-col-5">Điểm hệ A</div>
+                                            <div class="main-area__course-table-row-col-6">Kết quả</div>
+                                        </div>
+
+                                        <!-- <div class="main-area__course-table-row main-area__course-table-row--success flex ">
+                                            <div class="main-area__course-table-row-col-1 flex">
+                                                <div class="main-area__course-table-row-col-1-img">
+                                                    <img src="./assets/images/subject-image/english.png" width="25px" height="25px" alt="">
+                                                </div>
+                                                <div>Tiếng Anh Nâng cao 5</div>
+                                            </div>
+                                            <div class="main-area__course-table-row-col-2">NKA213</div>
+                                            <div class="main-area__course-table-row-col-3">10.0</div>
+                                            <div class="main-area__course-table-row-col-4">4.0</div>
+                                            <div class="main-area__course-table-row-col-5">A+</div>
+                                            <div class="main-area__course-table-row-col-6">Xuất sắc</div>
+                                        </div> -->
+                                    </div>
+                                </div>
+
+                                <div class="main-area__course-table-result flex" id="courses-result"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="main-area_1-3">
+                        <div class="main-area__function-name flex jtf-ct-bw">
+                            <div class="main-area__function-name-left" id="suggest-topStu">
+                                BXH thành tích
+                            </div>
+                            <div class="main-area__function-name-right">
+                                <p class="student-label" id="suggest-lable">Danh hiệu hiện có</p>
+                            </div>
+                        </div>
+                        <div class="main-area__function flex">
+                            <div class="main-area__function-1-1">
+                                <div class="main-area__top-student-table">
+                                    <div class="main-area__top-student-table-padding">
+                                        <!-- <div class="main-area__top-student-table-row flex al-it-ct">
+                                            <div class="main-area__top-student-table-col-1">
+                                                <img src="./assets/images/user-avatar/minhkhoa.jpg" alt="" class="main-area__top-student-table-col-1-img">
+                                            </div>
+                                            <div class="main-area__top-student-table-col-2 flex clm">
+                                                <div class="main-area__top-student-table-col-2-name">
+                                                        Minh Khoa
+                                                </div>
+                                                <div class="main-area__top-student-table-col-2-email">
+                                                        minhkhoa.nguyen@gmail.com
+                                                </div>
+                                            </div>
+                                            <div class="main-area__top-student-table-col-3">
+                    
+                                                Sinh viên xuất sắc
+                                            </div>
+                                        </div> -->
+                                        
+                                        <!-- <div class="main-area__top-student-table-more">
+                                            <a href="#">Xem thêm...</a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-area__function-1-2 main-area__function-1-2--3">
+                                <div class="main-area__label-own-table">
+                                    <div class="main-area__label-own-table-padding flex">
+                                        <div class="main-area__label-own-table-half">
+
+                                            <!-- <div class="main-area__lable-own-table-row flex al-it-ct">
+                                                <div class="main-area__lable-own-table-col-1">
+                                                    <img src="./assets/images/label-image/creative.png" alt="">
+                                                </div>
+                                                <div class="main-area__lable-own-table-col-2">
+                                                    <p>Sáng tạo</p>
+                                                </div>
+                                                <div class="main-area__lable-own-table-col-3">
+                                                    <p>2017</p>
+                                                </div>
+                                            </div> -->
+
+                                        </div>
+                                        <div class="main-area__label-own-table-half">
+
+                                            <!-- <div class="main-area__lable-own-table-row flex al-it-ct">
+                                                <div class="main-area__lable-own-table-col-1">
+                                                    <img src="./assets/images/label-image/independent.png" alt="">
+                                                </div>
+                                                <div class="main-area__lable-own-table-col-2">
+                                                    <p>Độc lập</p>
+                                                </div>
+                                                <div class="main-area__lable-own-table-col-3">
+                                                    <p>2022</p>
+                                                </div>
+                                            </div> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-3-col flex">
+                <div class="footer-3-col__col flex clm footer-3-col__col--1">
+                    <div class="footer-3-col__col-row-heading" id="suggest-contact">
+                        Liên hệ
+                    </div>
+                    <div class="footer-3-col__col-row">
+                        🌎 Địa chỉ: Phòng 001, 35-37 Hồ Hảo Hớn, P.Cô Giang, Q.1
+                    </div>
+                    <div class="footer-3-col__col-row">
+                        📧 Email:
+                        <a class="contact-text" href="mailto:tuyensinh@ou.edu.vn">tuyensinh@ou.edu.vn</a>
+                    </div>
+                    <div class="footer-3-col__col-row">
+                        <a class="contact-text" href="https://www.facebook.com/tuyensinh.ou.edu.vn">⚡ Fanpage tuyển sinh</a>
+                    </div>
+                    <div class="footer-3-col__col-row">
+                        ☎ Hotline: <a class="contact-text" href="tel:1800585884">1800 5858 84</a>       
+                    </div>
+                </div>
+
+                <div class="footer-3-col__col flex clm footer-3-col__col--2">
+                    <div class="footer-3-col__col-row-heading" id="suggest-studyAt">
+                        Cơ sở học tập
+                    </div>
+                    <div class="footer-3-col__col-row">
+                        🏨 Cơ sở 1: <a class="contact-text" href="https://goo.gl/maps/8CwUKttoRuvCvfa26">97 Võ Văn Tần, P.6 Q.3</a>
+                    </div>
+                    <div class="footer-3-col__col-row">
+                        🏨 Cơ sở 3: <a class="contact-text" href="https://goo.gl/maps/8CwUKttoRuvCvfa26">371 Nguyễn Kiệm, P.3, Q.Gò Vấp</a>
+                    </div>
+                    <div class="footer-3-col__col-row">
+                        🏨 Cơ sở 4: <a class="contact-text" href="https://goo.gl/maps/YCgm5LHx8K9i2UmC6">02 Mai Thị Lựu, P.Đa Kao, Q.1</a>
+                    </div>
+                    <div class="footer-3-col__col-row"> 
+                        🏨 Cơ sở 5: <a class="contact-text" href="https://goo.gl/maps/Gvm8weeG5Kj4RDbg7">68 Lê Thị Trung, Tp.Thủ Dầu Một</a>
+                    </div>
+                    <div class="footer-3-col__col-row"> 
+                        🏨 Cơ sở 6: <a class="contact-text" href="https://goo.gl/maps/RQvQv76w4TYnMmi5A">P.Long Bình Tân, Tp. Biên Hòa</a>
+                    </div>
+                </div>
+
+                <div class="footer-3-col__col flex clm footer-3-col__col--3">
+                    <iframe width="100%" height="250px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.615414407854!2d106.692281!3d10.761138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f116afc68d1%3A0x1c12abcfb4b818fb!2zMzUgSOG7kyBI4bqjbyBI4bubbiwgUGjGsOG7nW5nIEPDtCBHaWFuZywgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCA3MDAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2sus!4v1690992063734!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer-1-col flex clm al-it-ct">
+                <div class="footer-1-col__logo">
+                    <img src="./assets/images/logo/logo_footer.png" width="20%" alt="">
+                </div>
+                <div class="footer-1-col__content">
+                    <div class="footer-1-col-row">
+                        Trang tổng kết quá trình học tập của học sinh - Trường Đại học Mở Tp.HCM
+                    </div>
+                    <div class="footer-1-col-row">
+                        Báo lỗi website: <a class="contact-text" style="color: red" href="mailto:tuyensinh@ou.edu.vn">TẠI ĐÂY</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        
+
+
+        <!--MODAL FORM-->
+        <div class="modal-form flex">
+            <div class="modal-form__overlay"></div>
+                <div class="modal-form__wrap">
+                    <div class="modal-form__padding">
+                        <div class="modal-form__close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+
+                        <div class="modal-form__header">
+                            <div class="modal-form__form-name">
+                                <h3>Đăng Nhập</h3>
+                            </div>
+                        </div>
+
+                        <div class="modal-form__body">
+                            <div class="modal-form__typing-boxes">
+                                <div class="modal-form__typing-box">
+                                    <span class="modal-form__typing-box-type">Tài khoản</span>
+                                    <div class="modal-form__typing-input">
+                                        <div class="modal-form__typing-describe">
+                                            <i class="fa-solid fa-user"></i>
+                                        </div>
+                                        <input type="text" placeholder="Nhập tài khoản (admin)" class="modal-form__typing-box-input" id="username-input">
+                                    </div>
+                                </div>
+                                <div class="modal-form__typing-box">
+                                    <span class="modal-form__typing-box-type">Mật khẩu</span>
+                                    <div class="modal-form__typing-input">
+                                        <div class="modal-form__typing-describe">
+                                            <i class="fa-solid fa-lock"></i>
+                                        </div>
+                                        <input type="password" placeholder="Nhập mật khẩu (123)" class="modal-form__typing-box-input" id="password-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-form__forgot">
+                                <span class="modal-form__forgot-pw"><a href="">Quên mật khẩu?</a></span> 
+                            </div>
+                            <div class="modal-form__button">
+                                <button class="modal-form__login-button">
+                                    Đăng nhập
+                                </button>
+                            </div>
+                            <div class="modal-form__option-description">
+                                Hoặc đăng ký bằng
+                            </div> 
+                            <div class="modal-form__socials-option flex">
+                                <div class="modal-form__social-option">
+                                    <a href="https://github.com"><i class="github-icon fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="modal-form__social-option">
+                                    <a href="https://twitter.com"><i class="twitter-icon fa-brands fa-twitter"></i></a>
+                                </div>
+                                <div class="modal-form__social-option">
+                                    <a href="https://www.facebook.com"><i class="facebook-icon fa-brands fa-facebook"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-form__footer">
+                            <div class="modal-form__others-option flex clm">
+                                <div class="modal-form__option-description">
+                                    Hoặc đăng ký với
+                                </div>
+                                <a href="" class="modal-form__option-button">Email cá nhân (Chưa cập nhật)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        
+    </div>
+
+
+
+
+    <div class="go-to-top">
+        <i class="fa-solid fa-angle-up go-to-top-icon"></i>
+    </div>
+
+    <!--JAVASCRIPT-->
+    <script src="./assets/javascript/load.js"></script>
+    <script src="./assets/javascript/little-function.js"></script>
+    <script src="./assets/javascript/autorun.js"></script>
+    <script src="./assets/javascript/music-function.js"></script>
+    <!--JAVASCRIPT-->
+    
+    <!--DARK READER-->
+    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>
+    <script src="./assets/javascript/dark-mode-toggle.js"></script>
+    <!--END OF DARK READER-->
+    
+</body>
+</html>

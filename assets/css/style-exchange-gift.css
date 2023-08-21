@@ -1,0 +1,237 @@
+.main-area-left{
+    width: 80%;
+}
+
+.main-area-right{
+    width: 20%;
+}
+
+.main-area-des {
+    background-color: #E5E9FD;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+   
+    overflow: hidden;
+}
+
+.main-area-des span {
+    position: relative;
+    animation: LtoR 1s infinite;
+}
+
+@keyframes LtoR {
+    from {
+        color:rgb(5, 100, 124);
+        font-weight: 500;
+    }
+    to {
+        color: #5b42ca;
+        
+    }
+}
+
+
+.main-area__gift-lists{
+    background-color: #E5E9FD;
+    flex-wrap: wrap;
+}
+
+.main-area__gift-list{
+    background-color: #fff;
+    width: 25%;
+    /* height: 100px; */
+    /* margin: 0 1rem; */
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+/* .main-area__gift-list:first-child{
+    margin-left: 0;
+}
+
+.main-area__gift-list:last-child{
+    margin-right: 0;
+} */
+
+.main-area__gift-list-image{
+    padding-top: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: transform .2s;
+}
+
+.main-area__gift-list-image:hover{
+    transform: scale(1.1);
+    
+}
+
+.main-area__gift-list-text{
+    margin: 0 1rem;
+}
+.main-area__gift-list-gift-list-name{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.main-area__gift-list-need{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    color: #5271FF;
+    font-weight: 500;
+}
+
+.main-area__gift-list-quantity-desc{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.main-area__gift-list-quantity-set{
+    font-size: 1.3rem;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    width: 100%;
+}
+.main-area__gift-list-get-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.main-area__gift-list-get-button button{
+    width: 100%;
+    font-size: 1.7rem;
+    height: 2.5rem;
+    background-image: linear-gradient(to bottom right, #7afedf, #33b1e3 );
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    font-weight: 500;
+    border: none;
+    border-radius: 1rem;
+}
+
+.main-area__label-own-table--1col{
+    margin-left: 1.6rem;
+    position: fixed;
+    top: 100px;
+    border-radius: 3px;
+    width: 14.4%;
+}
+
+.main-area-right-desc{
+    /* text-align: center; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.2rem .5rem;
+    color: #1c7389;
+    border-bottom: 1px solid #DADADA;
+}
+
+
+/*TABS*/
+.main-area-left-tabs{
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.main-area-left-tab-item{
+    padding: 1.5rem 1rem;
+    font-size: 1.8rem;
+    opacity: .5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-area-left-tab-item:hover {
+    opacity: 1;
+    background-color: rgba(28, 0, 167, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+}
+
+.main-area-left-tab-item--active{
+    opacity: 1;
+}
+
+.main-area-left-tab-item-icon{
+    margin-right: .5rem;
+    font-size: 2rem;
+    color: #1c00a7;
+}
+
+.main-area-left-tab-item-name{
+    font-weight: 700;
+    color: #1c00a7;
+}
+
+
+
+.main-area-left-tab-pane{
+    display: none;
+}
+
+.main-area-left-tab-pane--active{
+    display: block;
+}
+
+.main-area-left-tab-line{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 4px;
+    border-radius: 30px;
+    background-color: #0f034a;
+    transition: all .2 ease; 
+}
+
+.animate__flash{
+    animation-duration: 1s;
+}
+
+.main-area__gift-history{
+    background-color: #fff;
+    min-height: 500px;
+}
+
+
+
+/*HISTORY*/
+.main-area__gift-history{
+    width: 100%;
+    /* border-radius: 10px;
+    overflow: hidden; */
+    box-shadow: 0 0 1px #000;
+    margin-bottom: 1rem;
+}
+
+.main-area__gift-history-row.main-area__gift-history-row-main{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.main-area__gift-history-row{
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    
+}
+.main-area__gift-history-col-1{
+    flex: 3;
+    
+}
+.main-area__gift-history-col-2{
+    flex: 2;
+}
+.main-area__gift-history-col-3{
+    flex: 3;
+}

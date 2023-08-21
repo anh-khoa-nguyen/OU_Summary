@@ -1,0 +1,155 @@
+.main-area-news-nav{
+    background-color: #e5e9fd;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    
+}
+
+.main-area-news-lists{
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #551A8B;
+}
+
+.main-area-news-list{
+    padding: 0 1.5rem;
+    list-style-type: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.news-small-lists{
+    position: absolute;
+    background-color: #fff;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+    list-style-type: none;
+    margin-top: .2rem;
+    border-radius: 1rem;
+    left: -5px;
+    display: none;
+}
+
+.open-list{
+    display: block !important;
+}
+
+.news-small-list{
+    margin-bottom: 1.5rem;
+}
+
+.news-small-list:last-child{
+    margin-bottom: 0;
+}
+.news-small-lists a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+.main-area-news-list-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    display: block;
+}
+
+.main-area__left{
+    flex: 3;
+}
+.main-area__right{
+    flex: 1;    
+}
+
+.main-area__news{
+    margin-bottom: 3rem;
+}
+
+.main-area__news-top{
+    width: 100%;
+    background-color: #e5e9fd;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.main-area__news-top-img{
+    width: 65%;
+    
+    
+}
+
+.main-area__news-top-desc{
+    width: 35%;
+    padding: 2.5rem;
+}
+
+.main-area__news-top-desc a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.danhmuc{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.main-area__news-top-desc h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.main-area__news-top-desc p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+.main-area__news-top-desc span{
+    font-size: 1.4rem;
+}
+
+.main-area__news-top-img{
+    /* margin: auto; */
+    margin: auto 0rem auto 2rem;
+}
+
+.main-area__news-top-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-area__news-bottom-1-3{
+    width: 33.33333%;
+    padding: 0 2rem;
+}
+
+
+.main-area__news-bottom-1-3 h3{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    line-height: 2.2rem;
+}
+
+.main-area__news-bottom-1-3 p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.main-area__news-bottom-1-3 img{
+    display: none;
+}
+
+.main-area__advertisement{
+    width: 80%;
+    margin: auto;
+    height: 350px;
+    /* box-shadow: 0 0 1px #333; */
+    margin-top: 6rem;
+}
+
+.main-area__advertisement img{
+    width: 100%;
+}

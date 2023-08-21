@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "name": "100 Years Love (Instrument)",
+    "singer": "NamDuc",
+    "path": "./assets/audio/100yearslove.m4a",
+    "image": "./assets/audio/image/100yearslove.jpg"
+}, {
+    "id": 2,
+    "name": "Gone (Instrument)",
+    "singer": "ROSÉ",
+    "path": "./assets/audio/gone.mp3",
+    "image": "./assets/audio/image/Gone.jpg"
+}, {
+    "id": 3,
+    "name": "Fake Love (Instrument)",
+    "singer": "BTS",
+    "path": "./assets/audio/fakelove.mp3",
+    "image": "./assets/audio/image/BTS.jpg"
+}, {
+    "id": 4,
+    "name": "Dance Till Night Away (Instrument)",
+    "singer": "TWICE",
+    "path": "./assets/audio/dancetillnight.mp3",
+    "image": "./assets/audio/image/twice.jpg"
+}]
+

@@ -1,0 +1,22 @@
+[{
+    "id": 1,
+    "important": 80,
+    "image": "re-point.png",
+    "title": "Nhắc nhở thời hạn phúc khảo.",
+    "content": "Sinh viên có thắc mắc về điểm hãy nhanh chóng nộp đơn cho phòng khảo thí.",
+    "timepass": "1 days ago..."
+}, {
+    "id": 2,
+    "important": 50,
+    "image": "revise-exercise.png",
+    "title": "Nhắc nhở học bài.",
+    "content": "Sinh viên hãy tranh thủ ôn lại bài để chuẩn bị thi giữa kì",
+    "timepass": "1 days ago..."
+}, {
+    "id": 3,
+    "important": 80,
+    "image": "school-fee.png",
+    "title": "Nhắc nhở thời hạn phúc khảo.",
+    "content": "Sinh viên có thắc mắc về điểm hãy nhanh chóng nộp đơn cho phòng khảo thí.",
+    "timepass": "1 days ago..."
+}]

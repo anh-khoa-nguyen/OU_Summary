@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "checked": "none",
+    "link": "index.html",
+    "icon": "fa-solid fa-eye",
+    "name": "Tổng quan",
+    "access": "homepage"
+},{
+    "id": 2,
+    "checked": "none",
+    "link": "index-news.html",
+    "icon": "fa-solid fa-newspaper",
+    "name": "Tin tức",
+    "access": "news-page"
+},{
+    "id": 3,
+    "checked": "none",
+    "link": "index-exchange-gift.html",
+    "icon": "fa-solid fa-gift",
+    "name": "Đổi huy hiệu",
+    "access": "gift-page"
+},{
+    "id": 4,
+    "checked": "updating",
+    "link": "#",
+    "icon": "fa-solid fa-print print-icon",
+    "name": "In kết quả học tập",
+    "access": ".."
+},{
+    "id": 5,
+    "checked": "updating",
+    "link": "#",
+    "icon": "fa-solid fa-calendar-check",
+    "name": "Xem lịch thi",
+    "access": ".."
+}
+]

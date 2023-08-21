@@ -1,0 +1,63 @@
+@media(min-width: 46.25em) and (max-width: 63.9375em)
+{
+    .main-area-content{
+        flex-direction: column;
+    }
+  
+    .main-area__label-own-table--1col{
+        position: unset;
+    }
+
+    .main-area-left{
+        width: 100%;
+    }
+    .main-area-right{
+        width: 100%;
+    }
+
+    .main-area__label-own-table {
+        width: unset;
+        margin-left: 0;
+    }
+    .main-area__label-own-table-padding{
+        padding: 0.3rem 2rem;
+    }
+}
+
+
+
+@media(max-width: 46.1875em){
+    .main-area-content{
+        flex-direction: column;
+    }
+
+    .main-area-des{
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        padding: 2rem;
+    }
+    .main-area__label-own-table--1col{
+        position: unset;
+    }
+    .main-area-left{
+        width: 100%;
+    }
+    .main-area-right{
+        width: 100%;
+    }
+    .main-area__label-own-table {
+        width: unset;
+        margin-left: 0;
+    }
+    .main-area__label-own-table-padding{
+        padding: 0.3rem 2rem;
+    }
+    .main-area__gift-list{
+        width: 50%;
+    }
+
+    .main-area-right-desc{
+        font-size: 1.8rem;
+        padding: 2rem 1rem;
+    }
+}

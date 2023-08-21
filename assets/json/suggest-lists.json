@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "suggestName": "Tin tức",
+    "suggestLink": "#suggest-news"
+}, {
+    "id": 2,
+    "suggestName": "Môn học",
+    "suggestLink": "#suggest-subject"
+}, {
+    "id": 3,
+    "suggestName": "BXH thành tích",
+    "suggestLink": "#suggest-topStu"
+}, {
+    "id": 2,
+    "suggestName": "Danh hiệu hiện có",
+    "suggestLink": "#suggest-lable"
+}, {
+    "id": 2,
+    "suggestName": "Liên hệ",
+    "suggestLink": "#suggest-contact"
+}, {
+    "id": 2,
+    "suggestName": "Cơ sở học tập",
+    "suggestLink": "#suggest-studyAt"
+}]
+
